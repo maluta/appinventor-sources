@@ -159,6 +159,8 @@ public class TopPanel extends Composite {
           nativeName = MESSAGES.SwitchToTraditionalChinese();
         } else if (localeName == "es_ES") {
           nativeName = MESSAGES.SwitchToSpanish();
+        } else if (localeName == "pt_BR") {
+          nativeName = MESSAGES.SwitchToPortuguese();
         }
         languageItems.add(new DropDownItem(WIDGET_NAME_LANGUAGE, nativeName, lang));
       }
@@ -286,4 +288,3 @@ public class TopPanel extends Composite {
   }
 
 }
-

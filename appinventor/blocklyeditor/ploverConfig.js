@@ -8,6 +8,7 @@
 
     //msg/js/*.js has to come next (for constants)
     './src/msg/es_es/_messages.js',
+    './src/msg/pt_br/_messages.js',
     './src/msg/zh_tw/_messages.js',
     './src/msg/zh_cn/_messages.js',
     './src/msg/en/_messages.js',

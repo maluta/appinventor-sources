@@ -15,6 +15,7 @@ goog.require('Blockly.Msg.en');
 goog.require('Blockly.Msg.zh_cn');
 goog.require('Blockly.Msg.zh_tw');
 goog.require('Blockly.Msg.es_es');
+goog.require('Blockly.Msg.pt_br');
 
 Blockly.language_switch = {
   // Switch between languages
@@ -24,6 +25,9 @@ Blockly.language_switch = {
       Blockly.mainWorkspace.clear();
     }
     switch (language) {
+      case 'pt_BR':
+          Blockly.Msg.pt_br_switch_language_to_portuguese_br.init();
+          break;
       case 'es_ES':
           Blockly.Msg.es_es.switch_language_to_spanish_es.init();
           break;
